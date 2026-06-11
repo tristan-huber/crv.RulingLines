@@ -11,8 +11,8 @@
     },
     {
       "name": "RulingAxis(U,V,auto)",
-      "ioValue": "V",
-      "currentEquation": "V"
+      "ioValue": "auto",
+      "currentEquation": "auto"
     },
     {
       "name": "NumRulings",
@@ -57,7 +57,7 @@
         },
         {
           "name": "rulingAxis",
-          "ioValue": "V",
+          "ioValue": "auto",
           "currentEquation": "auto"
         }
       ],
