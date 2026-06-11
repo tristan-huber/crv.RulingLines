@@ -11,11 +11,12 @@
     },
     {
       "name": "RulingAxis(U,V,auto)",
-      "ioValue": 10
+      "ioValue": "V",
+      "currentEquation": "V"
     },
     {
       "name": "NumRulings",
-      "ioValue": 10
+      "ioValue": 50
     }
   ],
   "topLevel": true,
@@ -52,11 +53,11 @@
         },
         {
           "name": "numRulings",
-          "ioValue": 10
+          "ioValue": 50
         },
         {
           "name": "rulingAxis",
-          "ioValue": 10,
+          "ioValue": "V",
           "currentEquation": "auto"
         }
       ],
