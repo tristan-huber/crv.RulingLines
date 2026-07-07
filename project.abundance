@@ -15,8 +15,7 @@
     },
     {
       "name": "StartFromEdge",
-      "ioValue": -1,
-      "currentEquation": "-1"
+      "ioValue": -1
     }
   ],
   "topLevel": true,
@@ -35,8 +34,8 @@
     },
     {
       "atomType": "Input",
-      "x": 0.0231,
-      "y": 0.14,
+      "x": 0.025384615384615384,
+      "y": 0.15384615384615385,
       "uniqueID": "id-24",
       "name": "Face",
       "type": "geometry"
@@ -66,15 +65,15 @@
     },
     {
       "atomType": "Input",
-      "x": 0.0231,
-      "y": 0.22400000000000003,
+      "x": 0.025384615384615384,
+      "y": 0.24615384615384617,
       "uniqueID": "id-42",
       "name": "NumRulings"
     },
     {
       "atomType": "Input",
-      "x": 0.0231,
-      "y": 0.5057142857142857,
+      "x": 0.025384615384615384,
+      "y": 0.3384615384615385,
       "uniqueID": "id-58",
       "name": "StartFromEdge"
     },
