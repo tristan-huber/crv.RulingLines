@@ -14,7 +14,7 @@
       "ioValue": 50
     },
     {
-      "name": "PrimaryEdgeIndex",
+      "name": "StartFromEdge",
       "ioValue": 10
     }
   ],
@@ -66,16 +66,31 @@
     {
       "atomType": "Input",
       "x": 0.0231,
-      "y": 0.30800000000000005,
+      "y": 0.22400000000000003,
       "uniqueID": "id-42",
       "name": "NumRulings"
     },
     {
       "atomType": "Input",
       "x": 0.0231,
-      "y": 0.5514285714285714,
+      "y": 0.5057142857142857,
       "uniqueID": "id-58",
-      "name": "PrimaryEdgeIndex"
+      "name": "StartFromEdge"
+    },
+    {
+      "atomType": "Readme",
+      "x": 0.6139322916666666,
+      "y": 0.23428571428571426,
+      "uniqueID": "id-72",
+      "name": "README",
+      "ioValues": [
+        {
+          "name": "value",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "readMeText": "Mark out the ruling lines by which a surface can be unrolled. Use util.SelectFace to pick a face off of a surface if necessary.\n\nStartFromEdge sets the direction of the ruling lines. Negative value results in automatic selection of edge which maximizes accuracy of the ruling lines to the original surface.",
+      "global": true
     }
   ],
   "allConnectors": [
