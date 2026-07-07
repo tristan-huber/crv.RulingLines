@@ -8,10 +8,14 @@
 
 - **Face** (geometry)
 - **NumRulings** (number)
-- **PrimaryEdgeIndex** (number)
+- **StartFromEdge** (number)
 
 
 
 
- 
+ Mark out the ruling lines by which a surface can be unrolled. Use util.SelectFace to pick a face off of a surface if necessary.
+
+StartFromEdge sets the direction of the ruling lines. Negative value results in automatic selection of edge which maximizes accuracy of the ruling lines to the original surface.
+
+
 
