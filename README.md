@@ -7,8 +7,8 @@
 ## Inputs
 
 - **Face** (geometry)
-- **RulingAxis(U,V,auto)** (string)
 - **NumRulings** (number)
+- **PrimaryEdgeIndex** (number)
 
 
 
