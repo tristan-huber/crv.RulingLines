@@ -17,5 +17,7 @@
 
 StartFromEdge sets the direction of the ruling lines. Negative value results in automatic selection of edge which maximizes accuracy of the ruling lines to the original surface.
 
+__GEOMETRY_INPUT__
+
 
 
